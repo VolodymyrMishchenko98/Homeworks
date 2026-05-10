@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.top-header {
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.empty {
+  width: 100px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 0 10px;
+}
+
+.header-icons {
+  margin-right: 150px;
+}
+
+.header-icons .icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.black-nav {
+  background-color: #121212;
+  padding: 10px 40px;
+  justify-content: space-between;
+}
+
+.header-menu {
+  list-style: none;
+  gap: 30px;
+}
+
+.header-links {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-links.active {
+  color: #ffffff;
+}
+
+.phone-number a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.icon-phone {
+  width: 16px;
+  height: 16px;
+}
+
+.hero {
+  background-image: url("Rectangle 31.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.hero-title span {
+  color: #4b00c7;
+}
+
+.btn-order {
+  background-color: #3111bb;
+  color: white;
+  padding: 15px 60px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* СЕТКА ТОВАРОВ */
+.products {
+  padding: 60px 0;
+}
+
+.product-tabs {
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-link {
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-link.active {
+  color: #4b00c7;
+  border-bottom: 2px solid #4b00c7;
+}
+
+.grid-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 20px;
+  width: 100%;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+}
+
+.card-image-wrapper {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 15px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 20px;
+}
+
+.product-title {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 10px;
+  min-height: 40px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-align: right;
+  margin-top: auto;
+}
+
+/* ФУТЕР */
+.footer {
+  background-color: #121212;
+  padding: 70px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  gap: 218px;
+  align-items: center;
+}
+
+.footer-logo {
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.footer-nav {
+  gap: 118px;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
